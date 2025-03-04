@@ -39,17 +39,17 @@ This project is an end-to-end machine learning project implemented with MLOps us
 
 1. Preprocess the data:
    ```bash
-   python data_preprocessing.py
+   python src/data_preprocessing/DataPreprocessor.py
    ```
 
 2. Train the model:
    ```bash
-   python model_training.py
+   python src/model_training/ModelTrainer.py
    ```
 
 3. Evaluate the model:
    ```bash
-   python model_evaluation.py
+   python src/model_evaluation/ModelEvaluator.py
    ```
 
 ### Using MLFlow
